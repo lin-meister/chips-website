@@ -1,0 +1,21 @@
+
+body {
+  font-family: "Proxima Nova", Arial, Sans-Serif;
+  background-image: url('../images/circuit.jpg');
+}
+
+.minimal-button {
+  color: #000000;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  /*background-color: transparent;*/
+  border: 1px solid #ffffff;
+}
+
+.minimal-button:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.hide {
+    display: none;
+}
